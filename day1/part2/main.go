@@ -16,7 +16,7 @@ func main() {
 	}
 
 	// Read input from file
-	file, err := os.Open("input.txt")
+	file, err := os.Open("/Users/kaankahveci/GolandProjects/AOC/day1/input.txt")
 	if err != nil {
 		fmt.Println("Error reading file")
 	}

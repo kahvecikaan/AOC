@@ -1,3 +1,3 @@
-module adventOfCodeDay1
+module AOC
 
 go 1.21

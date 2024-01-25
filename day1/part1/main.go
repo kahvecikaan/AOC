@@ -8,10 +8,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("/Users/kaankahveci/GolandProjects/adventOfCodeDay1/input.txt")
-	// print the current working directory
-	dir, _ := os.Getwd()
-	fmt.Println(dir)
+	file, err := os.Open("/Users/kaankahveci/GolandProjects/AOC/day1/input.txt")
 	if err != nil {
 		fmt.Println("Error reading file")
 	}
