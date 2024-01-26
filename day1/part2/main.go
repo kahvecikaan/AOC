@@ -15,8 +15,8 @@ func main() {
 		"five": "5", "six": "6", "seven": "7", "eight": "8", "nine": "9",
 	}
 
-	// Read input from file
-	file, err := os.Open("/Users/kaankahveci/GolandProjects/AOC/day1/input.txt")
+	workingDir, _ := os.Getwd()
+	file, err := os.Open(workingDir + "/day1/input.txt")
 	if err != nil {
 		fmt.Println("Error reading file")
 	}

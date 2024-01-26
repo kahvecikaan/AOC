@@ -8,7 +8,9 @@ import (
 )
 
 func main() {
-	file, err := os.Open("/Users/kaankahveci/GolandProjects/AOC/day1/input.txt")
+	workingDir, _ := os.Getwd()
+	file, err := os.Open(workingDir + "/day1/input.txt")
+
 	if err != nil {
 		fmt.Println("Error reading file")
 	}
